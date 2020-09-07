@@ -9,7 +9,7 @@ class App extends React.Component {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/post/:id" component={PostDetail} />
+          <Route exact path="/post/:postId" component={PostDetail} />
           <Route exact path="/create-post" component={CreatePost} />
         </Switch>
       </div>
